@@ -4,7 +4,7 @@ title:  "Identity Server and Auth0"
 date:	Sun May 27 22:11:16 EDT 2018
 categories: asp.net
 ---
-For some background, I'm an operator on the [C# Discord server][http://aka.ms/csharp-discord]. I like to hang out there to socialize and help people with C#. 
+For some background, I'm an operator on the [C# Discord server](http://aka.ms/csharp-discord). I like to hang out there to socialize and help people with C#. 
 
 Today a user named AndersNicolai had a very strange error when trying to use Identity Server 4 with ASP.NET Core 2. He was trying to configure Auth0 as an external OpenID Connect provider. The following image is the error he saw:
 ![Indentity Server 4 error]({{ "/assets/indentity-server-error.png" | absolute_url }})
