@@ -7,10 +7,13 @@ categories: asp.net
 For some background, I'm an operator on the [C# Discord server](http://aka.ms/csharp-discord). I like to hang out there to socialize and help people with C#. 
 
 Today a user named AndersNicolai had a very strange error when trying to use Identity Server 4 with ASP.NET Core 2. He was trying to configure Auth0 as an external OpenID Connect provider. The following image is the error he saw:
-![Indentity Server 4 error]({{ "/assets/indentity-server-error.png" | absolute_url }})
+![Indentity Server 4 error]({{ "/assets/identity-server-error.png" | absolute_url }})
+
 The error reads:
+~~~
 An unhandled exception occured while processing the Request.
 InvalidOperationException: Cannot redirect to the end session endpoint, the configuration may be missing or invalid.
+~~~
 
 New users to C# will commonly ask for help before putting in any bit of effort. So my first assumption was that the configuration was missing or invalid. I asked the user to post his ServiceConfiguration method for the server and client. Hm, the configurations seemed to look correct. So next I busted out the Google.
 
